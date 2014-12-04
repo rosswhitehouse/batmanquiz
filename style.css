@@ -1,0 +1,136 @@
+*{
+  font-family: 'Maven Pro';
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+body {
+  font-family: helvetica;
+  background: #2C3E50;
+  color: white;
+}
+
+.batman, .superman, .gordon, .robin, .batman2, .alfred, .penguin, .riddler, .face, .joker, .cat {
+  float: right;  
+  height: 900px;
+}
+
+.cat{
+  margin-top: 700px;
+}
+
+.joker {
+  margin-top: 700px;
+}
+
+.face {
+  margin-top: 700px;
+  margin-right: 70px;
+}
+
+.riddler {
+  margin-top: 700px;
+  height: 920px;
+}
+
+.gordon, .alfred {
+  float: right;
+  height: 600px;
+  margin-top: 1000px; 
+}
+
+.penguin {margin-top: 690px;}
+
+.batman2 {
+  margin-top: 900px;
+}
+
+.superman {
+  margin-right: 30px;
+  margin-top: 900px; 
+}
+
+.robin {
+  height: 500px;
+  margin-top: 1100px;
+}
+
+/*$(window).scrollTop($(".superman").offset().top);*/
+
+.result {
+  margin-top: 280px;
+  margin-left: 200px;
+  font-size: 20px;
+  max-width: 500px; 
+  
+}
+
+.backtotop {
+  display: none;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.result-title {
+  font-size: 200%;
+}
+
+.home {
+  margin-top: 40px;
+  margin-left: 200px;
+  font-size: 30px;
+}
+
+.home-button {
+  font-size: 40px;
+  margin-top:20px;
+  padding: 0 5px;
+}
+
+.title {
+  margin-top: 20px;
+  margin-left: 70px;
+  font-size: 250%;
+}
+
+.answerA, .answerB, .answerC {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.question1, .question2, .question3, .question4, .question5 {
+  margin-bottom: 30px;
+}
+
+.selected {
+  color: red;
+}
+
+.questions {
+  margin: 40px 100px;
+}
+
+.main{
+  display: none;
+}
+
+@media screen and (max-width: 960px){
+  .batman, .superman, .gordon, .robin, .batman2, .alfred, .penguin, .riddler, .face, .joker, .cat {
+    height: 500px;
+  }
+  
+}
+
+@media screen and (max-width: 720px){
+   .batman, .superman, .gordon, .robin, .batman2, .alfred, .penguin, .riddler, .face, .joker, .cat {
+     height: 250px;
+   }
+  .result{
+    margin-left: 0px;
+  }
+}
